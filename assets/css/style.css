@@ -10,7 +10,7 @@
 
 body {
     background-image: url(../images/soundofmusic.jpg);
-    background-size: auto;
+    background-size: cover;
 }
 
 h1 {
