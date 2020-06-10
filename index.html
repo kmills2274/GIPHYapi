@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Giphy API</title>
+  <title>Giphy API- Katie's Favorites</title>
    
   <!-- Reset CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">">
+  <link rel="stylesheet" link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!-- Local Stylesheet CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -21,6 +21,52 @@
 </head>
 
 <body>
+
+    <nav class="navbar justify-content-center">
+
+      <h1>These are a few of my favorite things...</h1>
+
+    </nav>
+
+  <div class="container">
+
+      <div class="row">
+
+          <div class="col-md" id="gifButtons"></div>
+
+      </div>
+
+      <div class="row">
+
+          <div class="col-md my-3">
+
+              <form id="gifForm">
+
+                  <input id="moreGifs" type="submit" value="Change GIF Selection" class="btn btn-dark">
+                
+                  <!-- User input area -->
+                  <label for="gifInput">Try adding your own favorites here!</label>
+
+                  <!-- User input text box -->
+                  <input id="gifInput" class="border border-primary rounded" type="text">
+
+                  <!-- User input submit button -->
+                  <input id="addGif" type="submit" value="Submit" class="btn btn-light">
+
+              </form>
+
+          </div>
+
+      </div>
+
+      <div class="row">
+        
+        <!-- Gifs will display here-->
+        <div class="col-md my-3 card-columns" id="displayGif"></div>
+
+      </div>
+
+  </div>
 
 </body>
 
@@ -31,6 +77,6 @@
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 <!-- Local JS -->
-<script type="text/javascript" src="../assets/javascript/java.js"></script>
+<script type="text/javascript" src="../GIPHYapi/assets/javascript/java.js"></script>
 
 </html>

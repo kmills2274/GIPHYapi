@@ -1,4 +1,50 @@
+@font-face {
+    font-family: hearts;
+    src: url(../images/SoundHeart.ttf);
+}
+
+  @font-face {
+    font-family: marons;
+    src: url(../images/Marons-Regular.ttf);
+}
+
 body {
-    background-image: url(../images/pinkleopard.jpg);
-    background-size: cover;
+    background-image: url(../images/soundofmusic.jpg);
+    background-size: auto;
+}
+
+h1 {
+    font-family: marons;
+    font-size: 75px;
+    font-weight: bolder;
+    color: rgb(235, 235, 2);
+    text-shadow: 
+        3px 3px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+nav {
+    margin-bottom: 200px;
+}
+
+button#gifButtons {
+    background-color: transparent;
+    border: none;
+}
+
+form#gifForm {
+    margin-top: 50px;
+    text-align: center;
+}
+
+label {
+    background-color: rgb(235, 235, 2);
+    color: black;
+}
+
+button.topics {
+    background-color: rgba(0, 0, 0, 0.692);
 }
